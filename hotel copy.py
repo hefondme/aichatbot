@@ -18,7 +18,7 @@ def classify(text):
 
 
 while True:
-    qu = st.tex_input("호텔에 대해서 궁금한 것을 저에게 물어보세요>>",'')
+    qu = st.text_input("호텔에 대해서 궁금한 것을 저에게 물어보세요>>",'')
 
     if qu !='':
 
