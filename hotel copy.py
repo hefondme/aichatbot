@@ -17,13 +17,13 @@ def classify(text):
         response.raise_for_status()
 
 
-while True:
+#while True:
     qu = st.text_input("호텔에 대해서 궁금한 것을 저에게 물어보세요>>",'')
 
     if qu !='':
 
-        if (qu == "나가기") :
-         break
+        #if (qu == "나가기") :
+        # break
 
         demo = classify(qu)
 
@@ -57,5 +57,4 @@ while True:
             st.write("체크인 시간은 오후 3시이며, 체크아웃 시간은 오후 12시입니다.")
             st.write("답변 정확도 :", confidence)
     else:
-        
-st.write ("result: '%s' with %d%% confidence" % (label, confidence))
+        st.write ("입력해 주세요")
