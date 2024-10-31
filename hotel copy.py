@@ -57,4 +57,5 @@ while True:
             st.write("체크인 시간은 오후 3시이며, 체크아웃 시간은 오후 12시입니다.")
             st.write("답변 정확도 :", confidence)
     else:
-        st.write("입력해주세요")
+        
+st.write ("result: '%s' with %d%% confidence" % (label, confidence))
